@@ -4,6 +4,13 @@
     "buildCommand": null,
     "installCommand": null,
     "outputDirectory": ".",
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/contact/0/",
+            "permanent": false
+        }
+    ],
     "rewrites": [
         {
             "source": "/socket.io",
