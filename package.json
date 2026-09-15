@@ -1,7 +1,0 @@
-{
-    "name": "meta-appeal-ui-deploy",
-    "private": true,
-    "scripts": {
-        "build": "echo Static site — already built, nothing to compile."
-    }
-}

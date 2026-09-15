@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,5676,t=>{"use strict";let e=(0,t.i(71645).createContext)({socket:null,isConnected:!1});t.s(["SocketContext",0,e])}]);
