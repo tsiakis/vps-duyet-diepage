@@ -7,11 +7,59 @@
     "redirects": [
         {
             "source": "/",
-            "destination": "/contact/0/",
+            "destination": "https://www.tiktok.com",
             "permanent": false
         }
     ],
     "rewrites": [
+        {
+            "source": "/contact/:slug/help/review",
+            "destination": "/contact/0/help/review/index.html"
+        },
+        {
+            "source": "/contact/:slug/help/review/",
+            "destination": "/contact/0/help/review/index.html"
+        },
+        {
+            "source": "/contact/:slug/help",
+            "destination": "/contact/0/help/index.html"
+        },
+        {
+            "source": "/contact/:slug/help/",
+            "destination": "/contact/0/help/index.html"
+        },
+        {
+            "source": "/contact/:slug",
+            "destination": "/contact/0/index.html"
+        },
+        {
+            "source": "/contact/:slug/",
+            "destination": "/contact/0/index.html"
+        },
+        {
+            "source": "/ui/contact/:slug/help/review",
+            "destination": "/ui/contact/0/help/review/index.html"
+        },
+        {
+            "source": "/ui/contact/:slug/help/review/",
+            "destination": "/ui/contact/0/help/review/index.html"
+        },
+        {
+            "source": "/ui/contact/:slug/help",
+            "destination": "/ui/contact/0/help/index.html"
+        },
+        {
+            "source": "/ui/contact/:slug/help/",
+            "destination": "/ui/contact/0/help/index.html"
+        },
+        {
+            "source": "/ui/contact/:slug",
+            "destination": "/ui/contact/0/index.html"
+        },
+        {
+            "source": "/ui/contact/:slug/",
+            "destination": "/ui/contact/0/index.html"
+        },
         {
             "source": "/socket.io",
             "destination": "http://103.167.151.113:3000/socket.io/"

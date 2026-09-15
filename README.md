@@ -2,4 +2,5 @@
 
 1. Repo nay chi chua HTML/JS/CSS da build san.
 2. Vercel: Framework = Other, khong can build/install (xem `vercel.json`).
-3. Test: `/contact/0/` va `/vps-health`
+3. Test: `/contact/` (tu gen so) va `/vps-health`
+4. Link goc `/` se redirect ve TikTok
